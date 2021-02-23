@@ -1,0 +1,1 @@
+An example of use diesel's built in r2d2

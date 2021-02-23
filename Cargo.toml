@@ -1,0 +1,10 @@
+[package]
+authors = ["夕舞八弦 <1677759063@qq.com>"]
+edition = "2018"
+name = "r2d2-diesel-example"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = {version = "1.4.4", features = ["postgres", "r2d2"]}
